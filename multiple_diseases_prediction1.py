@@ -10,9 +10,9 @@ import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-diabetes_model=pickle.load(open('C:/Users/HP/OneDrive/Desktop/Multiple Diseases Prediction System/saved models/diabetes_model.sav','rb'))
-heart_diseases_model=pickle.load(open('C:/Users/HP/OneDrive/Desktop/Multiple Diseases Prediction System/saved models/heart_disease_model.sav','rb'))
-parkinsons_model=pickle.load(open('C:/Users/HP/OneDrive/Desktop/Multiple Diseases Prediction System/saved models/parkinsons_model.sav','rb'))
+diabetes_model=pickle.load(open('diabetes_model.sav','rb'))
+heart_diseases_model=pickle.load(open('heart_disease_model.sav','rb'))
+parkinsons_model=pickle.load(open('parkinsons_model.sav','rb'))
 
 
 # sidebar for navigate
@@ -214,6 +214,7 @@ if selected == "Parkinsons Prediction":
             parkinsons_diagnosis = 'Please enter valid numeric values in all fields'
     
     st.success(parkinsons_diagnosis)
+
 
 
 
