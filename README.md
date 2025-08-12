@@ -1,4 +1,4 @@
-🩺 Multiple Disease Prediction System
+🩺 Multiple Disease Prediction System - https://multiplediseasespredictor9812.streamlit.app/
 An interactive AI-powered health screening application built using Python, Scikit-learn, and Streamlit that predicts the risk of multiple diseases including Diabetes, Heart Disease, and Parkinson’s Disease based on user inputs.
 
 📌 Features
