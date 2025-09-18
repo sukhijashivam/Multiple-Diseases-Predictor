@@ -1,6 +1,3 @@
-🩺 Multiple Disease Prediction System - https://multiplediseasespredictor9812.streamlit.app/
-An interactive AI-powered health screening application built using Python, Scikit-learn, and Streamlit that predicts the risk of multiple diseases including Diabetes, Heart Disease, and Parkinson’s Disease based on user inputs.
-
 📌 Features
 🏥 Multiple Predictions — Supports:
 
@@ -10,10 +7,24 @@ Heart Disease Prediction
 
 Parkinson’s Disease Prediction
 
-🖥️ Interactive UI — Built using streamlit for a smooth, web-based experience
+Breast Cancer Prediction 🆕
 
-⚡ Fast & Lightweight — Predictions happen in real time without heavy computational needs
+Brain Tumor Classification 🆕
 
-📊 Machine Learning Models — Trained using scikit-learn
+🖥️ Interactive UI
 
-🔗 Easy to Deploy — Works on any system with Python installed
+Built using Streamlit for a smooth, web-based experience.
+
+⚡ Fast & Lightweight
+
+Predictions happen in real time without heavy computational needs.
+
+📊 Machine Learning Models
+
+Models trained using Scikit-learn and TensorFlow/Keras.
+
+🔗 Easy to Deploy
+
+Works on any system with Python installed.
+
+Deployable on Streamlit Cloud / Hugging Face Spaces / Heroku / Render.d
